@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Formulario de búsqueda */
+form {
+    text-align: center;
+    margin: 20px auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    padding: 5px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Resultados */
+#result-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.pizza-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pizza-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mensajes de error */
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+/* Estilos adicionales según tus preferencias */
+/* Puedes agregar más estilos aquí para personalizar aún más tu página */
